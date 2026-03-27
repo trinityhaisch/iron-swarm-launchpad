@@ -2,19 +2,19 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const founders = [
   {
-    name: "Alex Mercer",
+    name: "Trinity Haisch",
     role: "CEO & Co-Founder",
-    bio: "Former autonomous systems lead at a defense R&D lab. PhD in distributed robotics from MIT.",
+    bio: "",
   },
   {
-    name: "Priya Anand",
+    name: "Xihan Sun",
     role: "CTO & Co-Founder",
-    bio: "Built edge computing infrastructure at scale. Previously senior engineer at a leading aerospace company.",
+    bio: "Mechanical Lead",
   },
   {
-    name: "James Okafor",
-    role: "Head of Hardware & Co-Founder",
-    bio: "Designed MAV platforms for military applications. MS in Aerospace Engineering from Stanford.",
+    name: "Jack Wei",
+    role: "SMTH",
+    bio: "Software Lead",
   },
 ];
 

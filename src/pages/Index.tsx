@@ -7,12 +7,15 @@ import UseCasesSection from "@/components/UseCasesSection";
 import FoundersSection from "@/components/FoundersSection";
 import VisionSection from "@/components/VisionSection";
 import FooterSection from "@/components/FooterSection";
+import Hero from "@/components/openpage";
+
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <HeroSection />
+      <Hero/>
+      {/* <HeroSection /> */}
       <WhatWeDoSection />
       <PlatformSection />
       <HowItWorksSection />

@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
+import { motion } from "framer-motion";
+
 
 const navLinks = [
   { label: "Platform", href: "#platform" },
   { label: "Use Cases", href: "#use-cases" },
   { label: "Team", href: "#founders" },
-  { label: "Docs", href: "https://aeveical.github.io/pie-2025-03/index.html" },
 ];
 
 export default function Navbar() {
@@ -18,14 +19,27 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-20 transition-all duration-300 ${
         scrolled ? "bg-background/95 backdrop-blur-md border-b border-border" : "bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+     
+      <div className="max-w-[10000px] mx-auto px-6 h-16 flex items-center justify-between">
+        
+         <motion.h1
+        initial={{ opacity: 0, x: 100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+>
         <a href="#" className="text-lg font-bold tracking-tight text-foreground">
           Iron<span className="text-primary">Swarm</span>
         </a>
+        </motion.h1>
+        <motion.h1
+        initial={{ opacity: 0, x: -100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 1 }}
+        >
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <a
@@ -44,7 +58,10 @@ export default function Navbar() {
             Contact
           </a>
         </div>
+        </motion.h1>
       </div>
+
     </nav>
   );
 }
+

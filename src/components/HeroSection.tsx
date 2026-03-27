@@ -20,17 +20,12 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
-        <p className="animate-fade-up text-sm font-medium tracking-[0.2em] uppercase text-primary mb-6">
-          Aerial Computing Platform
-        </p>
-        <h1 className="animate-fade-up-delay-1 text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight text-foreground mb-6">
-          Autonomous Aerial Compute,{" "}
-          <span className="text-gradient">Deployed at Scale.</span>
+      <div className="relative z-10 max-w-5xl mx-auto px-6 text-left">
+      
+        <h1 className="animate-fade-up-delay-0.2 text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight text-foreground mb-6">
+          Creating a new family in the sky.{" "}
         </h1>
-        <p className="animate-fade-up-delay-2 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-          Iron Swarm builds distributed MAV systems that sense, compute, and act in real time.
-        </p>
+        
         <div className="animate-fade-up-delay-3 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
             href="#platform"

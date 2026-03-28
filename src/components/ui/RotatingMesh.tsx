@@ -4,20 +4,30 @@ import { useGLTF } from "@react-three/drei";
 import { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
+import { Center } from "@react-three/drei";
 
 export default function Model({ scroll }: { scroll: number }) {
   const ref = useRef<THREE.Group>(null!);
-  const { scene } = useGLTF("/drone.glb");
+  const { scene } = useGLTF("/Drone.glb");
+  
 
   useFrame(() => {
     if (!ref.current) return;
+    ref.current.rotation.y=Math.PI;
+  
 
     ref.current.rotation.y +=
-      (scroll * Math.PI * 2 - ref.current.rotation.y) * 0.08;
+      (scroll * Math.PI * 2 - ref.current.rotation.y) * 0.4;
 
     ref.current.rotation.x +=
-      (scroll * Math.PI - ref.current.rotation.x) * 0.08;
+      (scroll * Math.PI - ref.current.rotation.x) * 0.1;
+      
+    
   });
 
-  return <primitive ref={ref} object={scene} scale={1} />;
+return (
+  <Center>
+    <primitive ref={ref} object={scene} scale={0.013} />
+  </Center>
+);
 }

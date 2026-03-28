@@ -8,6 +8,7 @@ import FoundersSection from "@/components/FoundersSection";
 import VisionSection from "@/components/VisionSection";
 import FooterSection from "@/components/FooterSection";
 import Hero from "@/components/openpage";
+import FeatureSection from "@/components/underopen";
 
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <Hero/>
+      <FeatureSection />
       {/* <HeroSection /> */}
       <WhatWeDoSection />
       <PlatformSection />

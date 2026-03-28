@@ -1,3 +1,4 @@
+import ScrambleText from "./ui/scramble";
 export default function Hero() {
   return (
     <div className="relative h-screen w-full overflow-hidden bg-black text-white">
@@ -22,11 +23,8 @@ export default function Hero() {
 
       {/* SUBTEXT */}
       <div className="absolute bottom-10 left-6 max-w-none text-gray-300">
-        <p className="text-[40px]">
-           Autonomous aerial computing.  <br />
-          Creating a new family in the sky. 
-      
-        </p>
+          <ScrambleText text="Autonomous aerial computing."/>
+          <ScrambleText text="Creating a new family in the sky." />
       </div>
 
       {/* FLOATING CARD

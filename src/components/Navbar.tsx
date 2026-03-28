@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 
 const navLinks = [
-  { label: "Platform", href: "#platform" },
-  { label: "Use Cases", href: "#use-cases" },
+  { label: "System", href: "#platform" },
+  { label: "Applications", href: "#use-cases" },
   { label: "Team", href: "#founders" },
 ];
 

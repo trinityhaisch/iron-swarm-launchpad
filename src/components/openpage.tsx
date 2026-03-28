@@ -24,7 +24,7 @@ export default function Hero() {
       {/* SUBTEXT */}
       <div className="absolute bottom-10 left-6 max-w-none text-gray-300">
           <ScrambleText text="Autonomous aerial computing."/>
-          <ScrambleText text="Creating a new family in the sky." />
+          <ScrambleText text="Optimizing intelligent warfare to protect our future." />
       </div>
 
       {/* FLOATING CARD

@@ -14,13 +14,13 @@ export default function Model({ scroll }: { scroll: number }) {
   useFrame(() => {
     if (!ref.current) return;
     ref.current.rotation.y=Math.PI;
+    ref.current.rotation.x=Math.PI/6 ;
   
 
     ref.current.rotation.y +=
       (scroll * Math.PI * 2 - ref.current.rotation.y) * 0.4;
 
-    ref.current.rotation.x +=
-      (scroll * Math.PI - ref.current.rotation.x) * 0.1;
+  
       
     
   });

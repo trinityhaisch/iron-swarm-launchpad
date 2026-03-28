@@ -3,17 +3,17 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const founders = [
   {
     name: "Trinity Haisch",
-    role: "CEO & Co-Founder",
-    bio: "",
+    role: "CEO",
+    bio: "built drone",
   },
   {
-    name: "Xihan Sun",
-    role: "CTO & Co-Founder",
+    name: "Zihan Sun",
+    role: "CTO",
     bio: "Mechanical Lead",
   },
   {
     name: "Jack Wei",
-    role: "SMTH",
+    role: "Chief Software Engineer",
     bio: "Software Lead",
   },
 ];

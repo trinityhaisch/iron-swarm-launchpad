@@ -67,9 +67,7 @@ export default function Sticky3DSection() {
               </p>    
             </div>
           ))}
-          <h2 className="text-3xl mb-4">
-            <a href="model.html" >Explore current prototype</a>
-          </h2>
+          
         </div>
       </div>
     </section>

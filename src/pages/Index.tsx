@@ -22,7 +22,6 @@ const Index = () => {
       <HowItWorksSection />
       <UseCasesSection />
       <FoundersSection />
-      <VisionSection />
       <FooterSection />
     </div>
   );

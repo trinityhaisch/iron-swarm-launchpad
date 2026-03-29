@@ -4,12 +4,12 @@ const founders = [
   {
     name: "Trinity Haisch",
     role: "CEO",
-    bio: "built drone",
+    bio: "Mechnical engineer and buisness lead.",
   },
   {
     name: "Zihan Sun",
     role: "CTO",
-    bio: "Mechanical Lead",
+    bio: "Mechanical and Integration Lead, responsible for the overall design and integration of the drone's mechanical and electronic systems.",
   },
   {
     name: "Jack Wei",

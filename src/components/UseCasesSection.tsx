@@ -30,12 +30,9 @@ export default function UseCasesSection() {
   return (
     <section id="use-cases" className="py-32 px-6" ref={ref}>
       <div className="max-w-7xl mx-auto">
-        <p className="text-sm font-medium tracking-[0.2em] uppercase text-primary mb-4">
+        <p className="text-5xl font-medium tracking-[0.2em] uppercase text-center mb-10">
           Applications
         </p>
-        <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-16">
-          Use Cases
-        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {cases.map((c, i) => (
             <div

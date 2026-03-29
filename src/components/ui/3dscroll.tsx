@@ -5,6 +5,25 @@ import { useRef, useState, useEffect } from "react";
 import Scene from "./3dscene";
 import ScrambleText from "./scramble";
 
+const sections = [
+  {
+    title: "Unmatched Cost per Effect",
+    desc: "Each MAV deployed from the mothership costs a fraction of traditional systems, enabling large-scale, cost effective operations.",
+  },
+  {
+    title: "Stealth Focused Design",
+    desc: "Each MAV is also significantly more difficult to target using traditional kinetic methods due to their small size compared to larger FPV drones.",
+  },
+  {
+    title: "Increased MAV Range and Endurance",
+    desc: "The mothership serves as a mobile base station, extending the operational range of MAVs beyond their standalone capabilities.",
+  },
+  {
+    title: "Autonomous Leader-Follower Operations",
+    desc: "With fully onboard computing and sensing capabilities, the mothership can deploy MAVs autonomously, enabling complex coordinated missions without a need for skilled operators",
+  },
+];
+
 export default function Sticky3DSection() {
   const ref = useRef(null);
   const [scroll, setScroll] = useState(0);
@@ -38,20 +57,17 @@ export default function Sticky3DSection() {
 
         {/* RIGHT: CONTENT */}
         <div className="w-1/2 py-40 space-y-40">
-          {[
-            "Autonomous Deployment",
-            "Onboard AI Compute",
-            "Modular Payload Systems",
-          ].map((text, i) => (
+          {sections.map((item, i) => (
             <div key={i}>
               <h2 className="text-3xl mb-4">
-                <ScrambleText text={text} />
+                <ScrambleText text={item.title} />
               </h2>
               <p className="text-gray-400 max-w-md">
-                Systems designed for scalable aerial operations and intelligent deployment in dynamic environments.
-              </p>
+                {item.desc}
+              </p>    
             </div>
           ))}
+          
         </div>
       </div>
     </section>

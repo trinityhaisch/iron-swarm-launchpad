@@ -11,22 +11,15 @@ export default function FooterSection() {
           </p>
         </div>
         <div className="flex gap-8">
+          
           <a
-            href="https://aeveical.github.io/pie-2025-03/index.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-          >
-            Docs
-          </a>
-          <a
-            href="mailto:contact@ironswarm.dev"
+            href="mailto:info@ironswarm.net"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
             Contact
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/aeveical/vlogging-drone"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"

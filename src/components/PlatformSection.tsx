@@ -20,7 +20,7 @@ export default function PlatformSection() {
               Survey the field, retrieve actionable intelligence in real time, preform complex coordinated missions, and efficiently deploy armed MAVs to strike in a high threat enviroment. 
             </p>
             <a
-              href="https://aeveical.github.io/pie-2025-03/index.html"
+              href="https://aeveical.github.io/pie-2025-03/model.html"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-semibold text-sm rounded-sm hover:brightness-110 transition-all duration-200"

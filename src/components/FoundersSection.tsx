@@ -4,17 +4,20 @@ const founders = [
   {
     name: "Trinity Haisch",
     role: "CEO",
-    bio: "Mechnical engineer and buisness lead.",
+    bio: "Mechnical engineer and buisness lead. Experienced in drone design, fabrication, and computer vision.",
+    linkedin: "https://www.linkedin.com/in/trinity-haisch-024b91381/",
   },
   {
     name: "Zihan Sun",
     role: "CTO",
     bio: "Mechanical and Integration Lead, responsible for the overall design and integration of the drone's mechanical and electronic systems.",
+    linkedin: "https://www.linkedin.com/in/jonathan-sun-1b99b135b/",
   },
   {
     name: "Jack Wei",
     role: "Chief Software Engineer",
-    bio: "Software Lead",
+    bio: "Software Lead and Autonomy Specialist, responsible for developing the drone's software architecture and autonomous capabilities.",
+    linkedin: "https://www.linkedin.com/in/erqi-jack-wei/",
   },
 ];
 
@@ -45,6 +48,16 @@ export default function FoundersSection() {
               <h3 className="text-lg font-semibold text-foreground">{f.name}</h3>
               <p className="text-sm text-primary font-medium mb-3">{f.role}</p>
               <p className="text-sm text-muted-foreground leading-relaxed">{f.bio}</p>
+              <div className="mt-4">
+                <a
+                  href={f.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm px-3 py-2 bg-primary text-primary-foreground font-medium rounded-sm hover:brightness-110 transition-all duration-200"
+                >
+                  LinkedIn
+                </a>
+              </div>
             </div>
           ))}
         </div>

@@ -13,7 +13,7 @@ export default function FooterSection() {
         <div className="flex gap-8">
           
           <a
-            href="mailto:info@ironswarm.net"
+            href="mailto:thaisch@ironswarm.net"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
             Contact

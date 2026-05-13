@@ -5,7 +5,9 @@ export default function PlatformSection() {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section id="platform" className="py-32 px-6" ref={ref}>
+    <section id="platform" className="py-32 px-6" ref={ref}
+            style={{ backgroundColor: "#1e1e1e" }}
+>
       <div className="max-w-7xl mx-auto">
         <div className={`grid grid-cols-1 lg:grid-cols-2 gap-16 items-center ${isVisible ? "" : "opacity-0"}`}>
           <div className={isVisible ? "animate-fade-up" : ""}>

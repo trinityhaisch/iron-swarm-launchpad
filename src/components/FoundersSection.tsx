@@ -4,7 +4,7 @@ const founders = [
   {
     name: "Trinity Haisch",
     role: "CEO",
-    bio: "Mechnical engineer and buisness lead. Experienced in drone design, fabrication, and computer vision.",
+    bio: "Mechnical engineer and business lead. Experienced in drone design, fabrication, and computer vision.",
     linkedin: "https://www.linkedin.com/in/trinity-haisch-024b91381/",
   },
   {
@@ -25,7 +25,8 @@ export default function FoundersSection() {
   const { ref, isVisible } = useScrollAnimation();
 
   return (
-    <section id="founders" className="py-32 px-6 border-t border-border" ref={ref}>
+    <section id="founders" className="py-32 px-6 border-t border-border" ref={ref}
+     style={{ backgroundColor: "#000000" }}>
       <div className="max-w-7xl mx-auto">
         <p className="text-sm font-medium tracking-[0.2em] uppercase text-primary mb-4">
           Team

@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-20 transition-all duration-300 ${
-        scrolled ? "bg-background/95 backdrop-blur-md border-b border-border" : "bg-transparent"
+        scrolled ? "bg-secondary backdrop-blur border-b border-border" : "bg-transparent"
       }`}
     >
      
@@ -31,7 +31,8 @@ export default function Navbar() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1 }}
 >
-        <a href="#" className="text-lg font-bold tracking-tight text-foreground">
+        <a href="#" className="flex items-center gap-2 text-lg font-bold tracking-tight text-foreground">
+          <img src="/IronSwarmLogo.ico" alt="Iron Swarm Logo" className="w-5 h-5" />
           Iron<span className="text-primary">Swarm</span>
         </a>
         </motion.h1>

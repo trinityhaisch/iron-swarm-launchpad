@@ -18,14 +18,7 @@ export default function FooterSection() {
           >
             Contact
           </a>
-          <a
-            href="https://github.com/aeveical/vlogging-drone"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-          >
-            GitHub
-          </a>
+          
         </div>
       </div>
       <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-border">

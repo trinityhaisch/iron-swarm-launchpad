@@ -4,7 +4,7 @@ const founders = [
   {
     name: "Trinity Haisch",
     role: "CEO",
-    bio: "Mechnical engineer and business lead. Experienced in drone design, fabrication, and computer vision.",
+    bio: "Mechanical engineer and business lead. Experienced in drone design, fabrication, and computer vision.",
     linkedin: "https://www.linkedin.com/in/trinity-haisch-024b91381/",
   },
   {
@@ -13,12 +13,7 @@ const founders = [
     bio: "Mechanical and Integration Lead, responsible for the overall design and integration of the drone's mechanical and electronic systems.",
     linkedin: "https://www.linkedin.com/in/jonathan-sun-1b99b135b/",
   },
-  {
-    name: "Jack Wei",
-    role: "Chief Software Engineer",
-    bio: "Software Lead and Autonomy Specialist, responsible for developing the drone's software architecture and autonomous capabilities.",
-    linkedin: "https://www.linkedin.com/in/erqi-jack-wei/",
-  },
+  
 ];
 
 export default function FoundersSection() {
